@@ -6,7 +6,7 @@
  */
 int _strlen(char *s)
 {
-int longi = 0;
+int long i = 0;
 
 while (*s != '\0')
 {
@@ -14,5 +14,5 @@ long i++;
 s++;
 }
 
-return (longi);
+return (long i);
 }
