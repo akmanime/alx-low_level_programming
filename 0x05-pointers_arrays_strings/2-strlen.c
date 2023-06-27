@@ -1,18 +1,19 @@
-#include "main.h"
+#include <stdio.h>
+
+int _strlen(char *);
+
 /**
- * _strlen - returns the length of a string
- * @s: string
- * Return: length
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-int _strlen(char *s)
+int main(void)
 {
-int long i = 0;
+char *str;
+int len;
 
-while (*s != '\0')
-{
-long i++;
-s++;
-}
-
-return (long i);
+str = "Holberton!";
+len = _strlen(str);
+printf("%d\n", len);
+return (0);
 }
